@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=129;
+		nextID=133;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=7;
+		nextID=14;
 	};
 	class Camera
 	{
-		pos[]={4804.2324,11.369113,2527.5234};
-		dir[]={0.78349841,-0.37967563,0.49192128};
-		up[]={0.32155478,0.92512006,0.20188904};
-		aside[]={0.53173894,-4.3073669e-009,-0.84691513};
+		pos[]={4736.0239,19.695066,2530.2029};
+		dir[]={0.75419134,-0.44268194,0.48509806};
+		up[]={0.37234366,0.89666247,0.23949134};
+		aside[]={0.54098862,1.1408702e-007,-0.84108806};
 	};
 };
 binarizationWanted=0;
@@ -76,13 +76,14 @@ addons[]=
 	"ace_interaction",
 	"vtx_mh60m",
 	"CUP_CAMisc",
-	"A3_Ui_F"
+	"A3_Ui_F",
+	"ace_fortify"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=40;
+		items=41;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -102,7 +103,7 @@ class AddonsMetaData
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item3
 		{
@@ -116,14 +117,14 @@ class AddonsMetaData
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item5
 		{
 			className="ace_sitting";
 			name="ACE3 - Sitting";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item6
 		{
@@ -177,7 +178,7 @@ class AddonsMetaData
 			className="ace_vector";
 			name="ACE3 - Vector";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item14
 		{
@@ -209,21 +210,21 @@ class AddonsMetaData
 			className="ace_hearing";
 			name="ACE3 - Hearing";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item19
 		{
 			className="ace_flashlights";
 			name="ACE3 - Flashlights";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item20
 		{
 			className="ace_maptools";
 			name="ACE3 - Map Tools";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item21
 		{
@@ -241,35 +242,35 @@ class AddonsMetaData
 			className="ace_grenades";
 			name="ACE3 - Grenades";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item24
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item25
 		{
 			className="ace_trenches";
 			name="ACE3 - Trenches";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item26
 		{
 			className="ace_attach";
 			name="ACE3 - Attach";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item27
 		{
 			className="ace_optics";
 			name="ACE3 - Optics";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item28
 		{
@@ -283,7 +284,7 @@ class AddonsMetaData
 			className="ace_compat_rhs_usf3";
 			name="ACE3 - RHS USF Compatibility";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item30
 		{
@@ -314,7 +315,7 @@ class AddonsMetaData
 			className="ace_intelitems";
 			name="ACE3 - Intel Items";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item35
 		{
@@ -328,7 +329,7 @@ class AddonsMetaData
 			className="ace_interaction";
 			name="ACE3 - Interaction";
 			author="ACE-Team";
-			url="http://ace3mod.com/";
+			url="https://ace3.acemod.org/";
 		};
 		class Item37
 		{
@@ -346,6 +347,13 @@ class AddonsMetaData
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
+		};
+		class Item40
+		{
+			className="ace_fortify";
+			name="ace_fortify";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
 		};
 	};
 };
@@ -4830,7 +4838,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=2;
+		items=3;
 		class Item0
 		{
 			dataType="Layer";
@@ -5131,7 +5139,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4810.3599,9.7924223,2517.1079};
-										angles[]={-0,1.5191617,0};
+										angles[]={0,1.5191617,0};
 									};
 									side="Empty";
 									flags=4;
@@ -5238,7 +5246,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4805.0776,9.4051313,2533.5991};
-										angles[]={-0,2.1466317,0};
+										angles[]={0,2.1466317,0};
 									};
 									side="Empty";
 									flags=4;
@@ -5278,7 +5286,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4804.8423,9.4051313,2528.1636};
-										angles[]={-0,0.94400764,0};
+										angles[]={0,0.94400764,0};
 									};
 									side="Empty";
 									flags=4;
@@ -5298,7 +5306,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4804.4487,9.4051313,2531.1753};
-										angles[]={-0,1.5191617,0};
+										angles[]={0,1.5191617,0};
 									};
 									side="Empty";
 									flags=4;
@@ -5318,7 +5326,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4803.1479,9.5063982,2531.1519};
-										angles[]={-0,4.7749033,0};
+										angles[]={0,4.7749033,0};
 									};
 									side="Empty";
 									flags=4;
@@ -5336,7 +5344,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4803.5269,9.5063982,2533.3052};
-										angles[]={-0,4.949357,0};
+										angles[]={0,4.949357,0};
 									};
 									side="Empty";
 									flags=4;
@@ -5354,7 +5362,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4803.7622,9.5063982,2529.5073};
-										angles[]={-0,4.5558643,0};
+										angles[]={0,4.5558643,0};
 									};
 									side="Empty";
 									flags=4;
@@ -5372,7 +5380,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4803.7798,9.5063982,2528.5151};
-										angles[]={-0,4.694941,0};
+										angles[]={0,4.694941,0};
 									};
 									side="Empty";
 									flags=4;
@@ -5390,7 +5398,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4803.813,9.5064878,2527.5337};
-										angles[]={-0,4.5873938,0};
+										angles[]={0,4.5873938,0};
 									};
 									side="Empty";
 									flags=4;
@@ -5408,7 +5416,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4803.2837,9.5063982,2530.3511};
-										angles[]={-0,4.0334392,0};
+										angles[]={0,4.0334392,0};
 									};
 									side="Empty";
 									flags=4;
@@ -6056,7 +6064,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4805.7368,9.5064878,2534.5239};
-										angles[]={-0,5.8299756,0};
+										angles[]={0,5.8299756,0};
 									};
 									side="Empty";
 									flags=4;
@@ -6092,7 +6100,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4803.6772,9.5063982,2534.1587};
-										angles[]={-0,5.399703,0};
+										angles[]={0,5.399703,0};
 									};
 									side="Empty";
 									flags=4;
@@ -6164,7 +6172,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4803.5386,9.5063982,2532.0376};
-										angles[]={-0,4.7749033,0};
+										angles[]={0,4.7749033,0};
 									};
 									side="Empty";
 									flags=4;
@@ -6182,7 +6190,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4808.0757,9.3975267,2530.4976};
-										angles[]={-0,1.5191617,6.2698579};
+										angles[]={0,1.5191617,6.2698579};
 									};
 									side="Empty";
 									flags=4;
@@ -6202,7 +6210,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4687.811,9.0005074,2576.7822};
-										angles[]={-0,1.7465763,0};
+										angles[]={0,1.7465763,0};
 									};
 									side="Empty";
 									flags=4;
@@ -13066,7 +13074,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4806.8013,10.167844,2529.6011};
-										angles[]={-0,1.5191617,0};
+										angles[]={0,1.5191617,0};
 									};
 									side="Empty";
 									flags=4;
@@ -13236,7 +13244,7 @@ class Mission
 									class PositionInfo
 									{
 										position[]={4692.3774,10.352888,2583.7878};
-										angles[]={-0,0.18140693,0};
+										angles[]={0,0.18140693,0};
 									};
 									side="Empty";
 									flags=4;
@@ -13692,7 +13700,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={4713.4443,11.022919,2515.5886};
-								angles[]={-0,3.4882088,0};
+								angles[]={0,3.4882088,0};
 							};
 							side="Empty";
 							flags=4;
@@ -13921,6 +13929,96 @@ class Mission
 			name="respawn_west";
 			type="Empty";
 			id=128;
+		};
+		class Item2
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4724.2388,8.8999996,2560.5039};
+			};
+			id=129;
+			type="acex_fortify_setupModule";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_fortify_setupModule_Budget";
+					expression="_this setVariable ['Budget',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-1;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_fortify_setupModule_AddToolItem";
+					expression="_this setVariable ['AddToolItem',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ace_fortify_setupModule_Preset";
+					expression="_this setVariable ['Preset',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="mediumGreen";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ace_fortify_setupModule_Side";
+					expression="_this setVariable ['Side',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				nAttributes=4;
+			};
 		};
 	};
 	class Connections
