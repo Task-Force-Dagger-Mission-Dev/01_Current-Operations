@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=14;
+		nextID=21;
 	};
 	class Camera
 	{
-		pos[]={4736.0239,19.695066,2530.2029};
-		dir[]={0.75419134,-0.44268194,0.48509806};
-		up[]={0.37234366,0.89666247,0.23949134};
-		aside[]={0.54098862,1.1408702e-007,-0.84108806};
+		pos[]={4782.0288,35.772953,2508.6143};
+		dir[]={-0.77643263,-0.32013056,-0.54294485};
+		up[]={-0.26239207,0.94735438,-0.18348381};
+		aside[]={-0.57310176,-3.8353028e-007,0.81956321};
 	};
 };
 binarizationWanted=0;
@@ -4829,7 +4829,7 @@ class Mission
 		wavesForced=1;
 		windForced=1;
 		year=2008;
-		month=10;
+		month=7;
 		day=11;
 		hour=9;
 		minute=20;
@@ -13994,7 +13994,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="mediumGreen";
+							value="smallGreen";
 						};
 					};
 				};
@@ -14025,16 +14025,26 @@ class Mission
 	{
 		class LinkIDProvider
 		{
-			nextID=1;
+			nextID=2;
 		};
 		class Links
 		{
-			items=1;
+			items=2;
 			class Item0
 			{
 				linkID=0;
 				item0=112;
 				item1=85;
+				class CustomData
+				{
+					type="Sync";
+				};
+			};
+			class Item1
+			{
+				linkID=1;
+				item0=129;
+				item1=46;
 				class CustomData
 				{
 					type="Sync";
